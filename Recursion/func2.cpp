@@ -12,6 +12,7 @@ void add(){
 
 int main(){
     add();
+    
     // main(); // here main function is called again
     
 
