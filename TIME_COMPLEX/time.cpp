@@ -4,8 +4,9 @@ int main() {
     int x;
     for(x = 1; x <= 10; x++) {
         cout << "The value of x is: " << x << endl;
-        
+
     }
+    // The program only performs a fixed number of operations regardless of the size of the input.
     
     return 0;
 }
