@@ -11,8 +11,9 @@ void add(){
 }
 
 int main(){
+    cout << "Hello World!" << endl;
     add();
-    
+
     // main(); // here main function is called again
     
 
