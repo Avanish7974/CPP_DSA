@@ -6,6 +6,7 @@ int main() {
     int x;
     x = 10;
     cout << "The value of x is: " << x << endl;
+    // The program only performs a fixed number of operations regardless of the size of the input.
     
     return 0;
 }
