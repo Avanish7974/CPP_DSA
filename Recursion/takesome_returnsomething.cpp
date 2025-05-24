@@ -24,6 +24,8 @@ int main(){
     cin >> y;
     cout << "Sum is: " << add(x, y) << endl; // here x and y are used
     // here x and y are known as arguments
+    // here x and y are the actual arguments
+    // and a and b are the formal arguments
 
 
 
