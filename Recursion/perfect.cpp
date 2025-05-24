@@ -54,6 +54,7 @@ int main(){
     // 2. Taking nothing and returning something
     // 3. Taking something and returning nothing
     // 4. Taking something and returning something
+    
 
     is_perfect();
     int n;
