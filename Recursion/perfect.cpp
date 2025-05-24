@@ -49,6 +49,7 @@ int is_perfect3(){
 
 
 int main(){
+    cout << "Hello World!" << endl;
 
     is_perfect();
     int n;
