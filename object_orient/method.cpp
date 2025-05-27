@@ -23,12 +23,15 @@ class MyClass {
         void multiply(){
             cout << "Product: " << n1 * n2 << endl; // Displaying the product of n1 and n2
         }
-        
+
 };
 int main(){
     MyClass obj; // Creating an object of MyClass
     obj.display(); // Calling the display method to initialize member variables
     obj.show(); // Calling the show method to display member variables
+    obj.add(); // Calling the add method to display the sum of n1 and n2
+    obj.subtract(); // Calling the subtract method to display the difference of n1 and n2
+    obj.multiply(); // Calling the multiply method to display the product of n1 and n2
 
 
    
