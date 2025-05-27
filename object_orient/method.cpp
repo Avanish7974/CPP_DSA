@@ -1,12 +1,19 @@
 #include <iostream>
 using namespace std;
 // This code snippet demonstrates how to define a class in C++.
+// A class is a collection of data members (variables) and member functions (methods) that operate on those data members.
+// Classes are used to create objects, which are instances of the class.
+// instances ka ++matlab hota hai ki class ke andar jo bhi members hain unko use karne ke liye hum objects ka use karte hain.
+// iss program me humne ek class banayi hai jiska naam MyClass hai.
+// Is class ke andar humne kuch member variables aur member functions define kiye hain.
+// iss program me jo instance banayi gayi hai uska naam obj hai.
+
 
 class MyClass {
     public: // Public access specifier allows members to be accessible outside the class
         int n1, n2; // Member variables (n1 and n2 are data members)
         // here n1 and n2 are our local variables, which are used to store integer values.
-        
+
         // Member functions (methods) to perform operations on n1 and n2
 
         // the member function display() is used to initialize the member variables n1 and n2
