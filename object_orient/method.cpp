@@ -5,6 +5,8 @@ using namespace std;
 class MyClass {
     public: // Public access specifier allows members to be accessible outside the class
         int n1, n2; // Member variables (n1 and n2 are data members)
+        // here n1 and n2 are our local variables, which are used to store integer values.
+        
         // Member functions (methods) to perform operations on n1 and n2
 
         // the member function display() is used to initialize the member variables n1 and n2
