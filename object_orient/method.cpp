@@ -1,20 +1,28 @@
 #include <iostream>
 using namespace std;
+// This code snippet demonstrates how to define a class in C++.
+
 class MyClass {
     public: // Public access specifier allows members to be accessible outside the class
-        int n1, n2; // Member variables
-        void display(){
+        int n1, n2; // Member variables (n1 and n2 are data members)
+        // Member functions (methods) to perform operations on n1 and n2
+
+        // the member function display() is used to initialize the member variables n1 and n2
+        // The member function show() is used to display the values of n1 and n2
+        // The member function add() is used to display the sum of n1 and n2
+
+        void display(){ 
             cout<<"Enter the value of n1: ";
             cin>>n1; // Initializing member variable n1
             cout<<"Enter the value of n2: ";
             cin>>n2; // Initializing member variable n2
 
         }
-        void show(){
+        void show(){  
             cout << "n1: " << n1 << endl; // Accessing and printing member variable n1
             cout << "n2: " << n2 << endl; // Accessing and printing member variable n2
         }
-        void add(){
+        void add(){ 
             cout << "Sum: " << n1 + n2 << endl; // Displaying the sum of n1 and n2
         }
         void subtract(){
@@ -23,6 +31,13 @@ class MyClass {
         void multiply(){
             cout << "Product: " << n1 * n2 << endl; // Displaying the product of n1 and n2
         }
+        void divide(){
+            cout<< "Quotient: " << n1 / n2 << endl; // Displaying the quotient of n1 and n2
+        }
+        void modulus(){
+            cout<< "Remainder: " << n1 % n2 << endl; // Displaying the remainder of n1 and n2
+        }
+
 
 };
 int main(){
@@ -32,6 +47,8 @@ int main(){
     obj.add(); // Calling the add method to display the sum of n1 and n2
     obj.subtract(); // Calling the subtract method to display the difference of n1 and n2
     obj.multiply(); // Calling the multiply method to display the product of n1 and n2
+    obj.divide(); // Calling the divide method to display the quotient of n1 and n2
+    obj.modulus(); // Calling the modulus method to display the remainder of n1 and n2
 
 
    
