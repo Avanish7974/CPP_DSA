@@ -22,7 +22,10 @@ class Rectangle{
 
 };
 int main(){
+    
     Rectangle r; // Create an instance of Rectangle
+    // the size of r object is determined by the size of its member variables
+
     // Accessing the methods of Rectangle class
     // Since the methods are private, we need to make them public in the class definition
     // or use a public method to access them
