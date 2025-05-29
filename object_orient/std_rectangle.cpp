@@ -3,6 +3,8 @@ using namespace std;
 class rectangel{
     public:
     int length, breadth; // Member variables to store dimensions of the rectangle
+    // here length and breadth are instance variables of the class rectangle
+
     void getData();
     void display();
     void area();
@@ -25,6 +27,9 @@ void rectangel::area() {
 void rectangel::perimeter() {
     cout << "Perimeter: " << 2 * (length + breadth) << endl; // Calculate and display perimeter
 }
+
+// here in this way we can access the methods of the class rectangle
+// by using the scope resolution operator (::) to define the methods outside the class definition
 
 int main(){
     rectangel r;
