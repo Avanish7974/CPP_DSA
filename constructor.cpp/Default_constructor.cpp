@@ -27,22 +27,36 @@
 #include <iostream>
 using namespace std;
 class point{
+public:    
     int x, y; // data members
 public:
+int value(){
+    cout<<x<<endl; // This will print the value of x
+    cout<<y<<endl; // This will print the value of y
+    return x + y; // This function returns the sum of x and y
+}
+
     // Default Constructor
     point( ) { // This constructor does not take any parameters 
         // It initializes the data members to default values
-        x = 10;
-        y = 99;
+    
         cout << "Default constructor called: (" << x << ", " << y << ")" << endl;
         cout<< "This is a default constructor" << endl;
         cout<<x+y<<endl; // This will print the sum of x and y
     }
+    void display() { // Member function to display the point
+        cout << "Point: (" << x << ", " << y << ")" << endl;
+    }
 
 };
 int main(){
-    // Creating an object of the class point
-    point p1; // This will call the default constructor
-   
+    point p; // Creating an object of the class point
+    int x = 10; // Initializing x
+    int y = 20; // Initializing y
+    p.x = x; // Assigning value to x
+    p.y = y; // Assigning value to y
+    p.display(); // Calling the display function to show the point
+    cout << "Sum of x and y: " << p.value() << endl; // Calling the value function to get the sum of x and y
+  
     return 0;
 }
