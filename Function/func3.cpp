@@ -7,12 +7,12 @@ int add(){
     cout<<"\nEnter Second Number: ";
     cin>>n2;
     n3=n1+n2;
+    cout<<"\nSum is: "<<n3<<endl;
     return n3;
 }
 int main(){
-    cout<<"\n Addition : "<<add();
-    int r = add();
-    cout<<"\n Addition : "<<r;
+    cout << "Hello World!" << endl;
+    cout<<"Ans is "<<add()<<endl; // Calling the add function
 
 
 
