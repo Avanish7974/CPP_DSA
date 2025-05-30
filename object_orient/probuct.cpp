@@ -33,8 +33,9 @@ int main(){
     product p; 
     p.getinfo(); 
     p.display();
-    cout << "Profit: " << p.profit() << endl; 
+    cout << " Net amount is : " << p.profit() << endl; 
     p.profit_loss(); 
+    
    
     return 0;
 }
