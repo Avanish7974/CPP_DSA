@@ -25,6 +25,7 @@ int main(){
     // a and b are the actual parameters passed to the constructor
     Point p(a, b); // Creating an object of the class Point using the parameterized constructor
     // The parameterized constructor is called with a and b as arguments
+    
    
     return 0;
 }

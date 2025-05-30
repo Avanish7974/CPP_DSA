@@ -47,6 +47,18 @@ int value(){
     void display() { // Member function to display the point
         cout << "Point: (" << x << ", " << y << ")" << endl;
     }
+    // Parameterized constructor
+    point(int a, int b) { // This constructor takes two parameters to initialize the object's data members
+        x = a; // Using 'this' pointer to refer to the current object's data member
+        y = b; // Using 'this' pointer to refer to the current object's data member
+        cout << "Parameterized constructor called: (" << x << ", " << y << ")" << endl;
+    }
+    // Copy constructor
+    point(const point &p) { // This constructor takes a reference to another object of the same class
+        x = p.x; // Copying the value of x from the passed object
+        y = p.y; // Copying the value of y from the passed object
+        cout << "Copy constructor called: (" << x << ", " << y << ")" << endl;
+    }
 
 };
 int main(){
