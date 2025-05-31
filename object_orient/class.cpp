@@ -2,9 +2,9 @@
 using namespace std;
 class operation{
 public: // Public access specifier allows members to be accessible outside the class    
-    int n1,n2;
+    int n1=1,n2=2;
 
-};
+}; // These members are private by default, so they are not accessible outside the class
 // the access specifier of the class is private by default, so the members of the class are not accessible outside the class.
 int main(){
     operation op; // Creating an object of the class operation
