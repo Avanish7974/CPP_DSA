@@ -17,7 +17,19 @@ public:
         x = a; // Using 'this' pointer to refer to the current object's data member
         y = b; // Using 'this' pointer to refer to the current object's data member
         cout << "Parameterized constructor called: (" << x << ", " << y << ")" << endl;
+
     }
+    // parametrized constructor
+    Point(int a, int b){
+        // Using 'this' pointer to refer to the current object's data member
+        this->x = a;
+        this->y = b;
+        cout << "Parameterized constructor called: (" << x << ", " << y << ")" << endl;
+        
+
+    }
+    // Copy constructor
+    
 };
 int main(){
     int a = 10; // Initializing a
