@@ -52,8 +52,8 @@ class result: public student,public marks{
     void calculateTotal(){
         getDetails();
         getMarks();
-        cout << "Total marks are: " << total << endl;
         total = maths + physics + chemistry;
+        cout << "Total marks are: " << total << endl;
 
     }
      
@@ -61,7 +61,7 @@ class result: public student,public marks{
 int main(){
     result obj;
     obj.calculateTotal();
-    
+
 
    
 
