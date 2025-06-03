@@ -60,11 +60,9 @@ class result: public student,public marks{
     result(){
         cout << "Result Default Constructor Called.\n";
     }
-    // simple parameterized calling here
-    result(int r, string n, int m, int p, int c): student(r, n), marks(m, p, c){
+    result(int r, string n, int m, int p, int c): student(r, n), marks(m, p, c){  // here we use constructor chaining to call constructor of base class before constructor of derived class
         cout << "Result Parametrized Constructor Called.\n";
     }
-    
 
     ~result(){
         cout << "Result Destructor Called.\n";
@@ -81,7 +79,6 @@ class result: public student,public marks{
 };   
 int main(){
     result r(1, "John", 85, 90, 80);
-
     r.calculateTotal();
     
 
