@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 // student program for multiple inheritance in C++
+// now in this program we introduce parameterized constructor in all classes and make them run first even before default constructor
 
 class student{
     public:
