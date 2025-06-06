@@ -81,8 +81,11 @@ class result: public student,public marks{
 };   
 int main(){
     result r(1, "John", 85, 90, 80);
-
     r.calculateTotal();
+
+    
+
+
     
 
 

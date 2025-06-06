@@ -36,6 +36,31 @@ class Student {
         int getChemistry() { return chemistry; }
         int getMathematics() { return mathematics; }
         // Setter functions
+        // // in setter function we use void keyword to modify private data members.
+        // void setDetails(string n, int a, char s, int r, int p, int c, int m) {
+        //     name = n;
+        //     age = a;
+        //     section = s;
+        //     roll_number = r;
+        //     physics = p;
+        //     chemistry = c;
+        //     mathematics = m;
+        // }
+        // int main() {
+        //     Student s;
+        //     s.setDetails("John Doe", 18, 'A', 123, 90, 85, 95);
+        //     cout << "Name: " << s.getName() << endl;
+        //     cout << "Age: " << s.getAge() << endl;
+        //     cout << "Section: " << s.getSection() << endl;
+        //     cout << "Roll Number: " << s.getRollNumber() << endl;
+        //     cout << "Physics: " << s.getPhysics() << endl;
+        //     cout << "Chemistry: " << s.getChemistry() << endl;
+        //     cout << "Mathematics: " << s.getMathematics() << endl;
+        //     return 0;
+        // }
+        // the structure of the setter function is void, as it doesn't return any value.
+
+
         void setName(string n) { name = n; }
         void setAge(int a) { age = a; }
         void setSection(char s) { section = s; }
@@ -59,6 +84,8 @@ int main(){
     cout << "Section: " << s.getSection() << endl;
     cout << "Roll Number: " << s.getRollNumber() << endl;
     cout << "Physics: " << s.getPhysics() << endl;
+
+
 
    
     return 0;

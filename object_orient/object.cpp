@@ -7,7 +7,7 @@ class MyClass {
 int main(){
     MyClass obj; // Creating an object of MyClass
     obj.n1 = 10; // Initializing member variable n1
-    obj.n2 = 20; // Initializing member variable n2
+    // obj.n2 = 20; // Initializing member variable n2
     cout << "n1: " << obj.n1 << endl; // Accessing and printing member variable n1
     cout << "n2: " << obj.n2 << endl; // Accessing and printing member variable n2
   

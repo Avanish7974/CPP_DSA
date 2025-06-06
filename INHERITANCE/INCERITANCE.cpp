@@ -9,7 +9,12 @@
 // 4. Hierarchical Inheritance: A derived class can inherit from more than one base class, but each base class can only inherit from one other base class.
 // 5. Hybrid Inheritance: A derived class can inherit from a base class that in turn inherits from another base class, and it can also inherit from multiple other base classes.
 
-
+// 1. in inheritance first default constructor of base class will be called before constructor of derived class.
+// 2. but in case of multiple inheritance, constructors of all base classes will be called in the order they are listed
+//     in the derived class.
+// 3. but in the destructor order, destructors of base classes will be called in the reverse order they were listed
+//     in the derived class.
+// 4. if there is parameterized  we call first by method then default constructor not called        
 // // Advantages of Inheritance:
 // 1. Code Reusability: Inheritance allows us to reuse the code and properties of the base class in the derived class.
 // 2. Encapsulation: Inheritance promotes encapsulation by hiding the implementation details of the base class and providing a controlled interface for accessing and modifying the derived class's data members.
